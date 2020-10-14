@@ -1,0 +1,9 @@
+.section__image {
+    /* padding-bottom: 100%; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

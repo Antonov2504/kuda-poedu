@@ -1,0 +1,9 @@
+.places{
+    max-width: 984px;
+    display: grid;
+    margin: auto;
+    column-gap: 80px;
+    justify-items: center;
+    background-color: #f2f2f2;
+    max-width: 1505px;
+}

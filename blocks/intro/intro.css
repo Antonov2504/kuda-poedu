@@ -1,0 +1,30 @@
+@import url("./__heading/intro__heading.css");
+@import url("./__title/intro__title.css");
+
+.intro {
+    height: 40vw;
+    max-height: 640px;
+    background-image: url(../../images/intro-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 27.6vw;
+    width: 27.5vw;
+    position: relative;
+    top: 5.9%;
+    left: 59.9%;
+    
+
+  }
+
+  .intro:before {
+    background-position: center;
+    top: 5.9%;
+    left: 59.9%;
+    height: 27.6vw;
+    width: 27.5vw;
+  }
+
+  .intro:after {
+    display: none;
+  }

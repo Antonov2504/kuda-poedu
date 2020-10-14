@@ -1,0 +1,6 @@
+.section__container {
+  min-width: 280px;
+  width: calc(100% - 80px * 2);
+  max-width: 1345px;
+  margin: 0 auto;
+}

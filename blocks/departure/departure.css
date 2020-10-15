@@ -1,0 +1,17 @@
+.departure {
+  padding: 160px 0 140px;
+  position: relative;
+}
+
+.departure::after {
+  content: '';
+  width: 50%;
+  height: 100%;
+  background-image: url('./../../images/airport-schedule.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

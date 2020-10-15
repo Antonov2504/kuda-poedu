@@ -1,0 +1,8 @@
+.video {
+  padding: 0;
+  position: relative;
+}
+
+.video:hover .video__title {
+  opacity: 0;
+}

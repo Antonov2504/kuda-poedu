@@ -1,0 +1,19 @@
+.form__button {
+  min-width: 200px;
+  height: 38px;
+  padding: 5px 9px;
+  border: 0;
+  background-color: black;
+  color: white;
+  font-family: inherit;
+  cursor: pointer;
+  transition: opacity .3s;
+}
+
+.form__button:hover {
+  opacity: .7;
+}
+
+.form__button:focus {
+  outline-color: #fffafa;
+}

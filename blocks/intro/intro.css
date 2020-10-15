@@ -1,6 +1,18 @@
-@import url("./__heading/intro__heading.css");
-@import url("./__image/intro__image.css");
-@import url("./__title/intro__title.css");
 .intro {
+    min-height: 660px;
+    padding: 210px 0 160px 0;
+    position: relative;
 }
-  
+
+.intro::after {
+    content: '';
+    width: 27.9vw;
+    height: 27.9vw;
+    background-image: url("./../../images/intro-image.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 90px;
+    right: 12.3vw;
+}

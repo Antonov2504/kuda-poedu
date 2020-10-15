@@ -1,0 +1,7 @@
+.place__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5.05vw 5.32vw;
+}

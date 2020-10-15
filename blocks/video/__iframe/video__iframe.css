@@ -1,0 +1,10 @@
+.video__iframe {
+  display: block;
+  width: 100%;
+  height: 48.6vw;
+  border: 0;
+}
+
+.ytp-chrome-top {
+  display: none;
+}

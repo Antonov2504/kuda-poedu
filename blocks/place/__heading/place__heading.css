@@ -1,6 +1,7 @@
 .place__heading {
     line-height: 100%;
     margin-top: 0;
+    /*padding-bottom: 224px;*/
     margin: 0;
     align-self: end;
     justify-self: start;

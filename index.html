@@ -4,84 +4,110 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="pages/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Куда я поеду</title>
 </head>
 
-<body>
-  <page>
-    <div class="page__container">
-      <header class="header">
-        <nav>
-          <ul class="header__list">
-            <li class="header__list-item"><a class="header__link" href="#">Мечты</a></li>
-            <li class="header__list-item"><a class="header__link" href="#">Ожидания</a></li>
-            <li class="header__list-item"><a class="header__link" href="#">Реальность</a></li>
-            <li class="header__list-item"><a class="header__link" href="#">Пожаловаться</a></li>
-          </ul>
-        </nav>
-      </header>
+<body class="page">
+  <header class="header">
+    <nav>
+      <ul class="header__list">
+        <li class="header__list-item"><a class="header__link" href="#">Мечты</a></li>
+        <li class="header__list-item"><a class="header__link" href="#">Ожидания</a></li>
+        <li class="header__list-item"><a class="header__link" href="#">Реальность</a></li>
+        <li class="header__list-item"><a class="header__link" href="#">Пожаловаться</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- Section Intro -->
+    <section class="intro">
+      <p class="intro__title">Куда я поеду</p>
+      <h1 class="intro__heading">Куда я поеду сразу, как можно будет куда-то поехать</h1>
+      <img src="images/intro-image.jpeg" class="intro__image" alt="Крыло самолета">
+    </section>
+    <!--Sectron Intro -->
 
-      <main>
-        <section class="intro">
-          <h2 class="intro__title">Куда я поеду</h2>
-          <p class="intro__heading">Куда я поеду сразу, как можно будет куда-то поехать</p>
-        </section>
+<!-- Section Places-->
+    <section class="places">
+      <div class="place">
+        <img class="place__image" src="./images/places-forest.jpeg" alt="Человек в лесу на фоне водопада.">
+        <div class="place__description">
+          <h2 class="place__heading">Поеду в лес</h2>
+          <div class="place__text">
+            <p class="place__paragraph">
+            Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья.
+            </p>
+            <p class="place__paragraph">
+            Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе —
+            это часть биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.
+            </p>
+          </div>
+        </div>
+      </div>
 
-        <section class="places">
-
-            <div class="place">
-              <img class="place__image" src="./images/places-forest.jpeg" alt="Человек в лесу на фоне водопада.">
-
-                <h2 class="place__heading">Поеду в лес</h2>
-                  <div class="place__text">
-                    <p class="place__paragraph">
-                    Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья.
-                    </p>
-                    <p class="place__paragraph">
-                    Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе —
-                    это часть биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.
-                    </p>
-                  </div>
+      <div class="place">
+        <img class="place__image" src="./images/places-mountains.jpeg" alt="Человек на фоне горы.">
+        <div class="place__description place__description_direction_reverse">
+        <h2 class="place__heading">Поеду в горы</h2>
+            <div class="place__text">
+              <p class="place__paragraph">
+              Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки,
+              17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт
+              на территории гор. В горах берёт своё начало большинство рек Земли.
+              </p>
             </div>
-
-            <div class="place">
-              <img class="place__image" src="./images/places-mountains.jpeg" alt="Человек на фоне горы.">
-                <h2 class="place__heading">Поеду в горы</h2>
-                  <div class="place__text">
-                    <p class="place__paragraph">
-                    Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки,
-                    17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт
-                    на территории гор. В горах берёт своё начало большинство рек Земли.
-                    </p>
-                  </div>
             </div>
+      </div>
 
-            <div class="place">
-                <h2 class="place__heading">Поеду на Чёрное море</h2>
-                  <div class="place__text">
-                    <p class="place__paragraph">
-                      Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда раньше не был, я уплыву.
-                      Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо, я позову.
-                    </p>
-                    <p class="place__paragraph">
-                      Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное
-                      море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.
-                    </p>
-                    <p class="place__paragraph">
-                      Уеду я.
-                    </p>
-                  </div>
-              <img class="place__image" src="./images/places-black-sea.jpeg" alt="Человек на фоне моря.">
+      <div class="place">
+        <img class="place__image" src="./images/places-black-sea.jpeg" alt="Человек на фоне моря.">
+        <div class="place__description">
+          <h2 class="place__heading">Поеду на Чёрное море</h2>
+            <div class="place__text">
+              <p class="place__paragraph">
+                Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда раньше не был, я уплыву.
+                Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо, я позову.
+              </p>
+              <p class="place__paragraph">
+                Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное
+                море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.
+              </p>
+              <p class="place__paragraph">
+                Уеду я.
+              </p>
             </div>
-        </section>
-    
+          </div>  
+      </div>
+    </section>
+<!--Section Place-->
 
 
-
-
-    </div>
-  </page>
+    <section class="section">
+      <div class="section__container">
+        <h2 class="section__name">Люди</h2>
+        <p class="section__title">Что говорят и говорили люди о путешествиях</p>
+        <ul class="table">
+          <li class="table__cell">
+            <h3 class="table__heading">Иван Бунин</h3>
+            <p class="table__text">Человека делают счастливым три вещи: любовь, интересная работа и возможность путешествовать.</p>
+          </li>
+          <li class="table__cell">
+            <h3 class="table__heading">Альбер Камю</h3>
+            <p class="table__text">Путешествие как самая великая и серьезная наука помогает нам вновь обрести себя.</p>
+          </li>
+          <li class="table__cell">
+            <h3 class="table__heading">Норвежская пословица</h3>
+            <p class="table__text">Лишь тот, кто странствует, открывает новые пути.</p>
+          </li>
+          <li class="table__cell">
+            <h3 class="table__heading">Мария Захарова</h3>
+            <p class="table__text">В принципе зарубежная поездка – это серьезнейшее, ответственнейшее и очень рискованное предприятие.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- End Section People -->
   </main>
 </body>
 

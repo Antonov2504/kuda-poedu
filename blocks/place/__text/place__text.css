@@ -1,4 +1,4 @@
-.place__text{
+.place__text {
     display: flex;
     flex-direction: column;
 }

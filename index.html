@@ -20,12 +20,12 @@
     </nav>
   </header>
   <main>
-    <!-- Section People -->
     <section class="intro">
       <p class="intro__title">Куда я поеду</p>
       <h1 class="intro__heading">Куда я поеду сразу, как можно будет куда-то поехать</h1>
       <img src="images/intro-image.jpeg" class="intro__image" alt="Крыло самолета">
     </section>
+    <!-- Section People -->
     <section class="section">
       <div class="section__container">
         <h2 class="section__name">Люди</h2>
@@ -51,6 +51,31 @@
       </div>
     </section>
     <!-- End Section People -->
+    <!-- Section Departure -->
+    <section class="section section_background-color_grey departure">
+      <div class="section__container">
+        <p class="section__title departure__title">Так куда же я поеду?</p>
+        <form action="#" class="form">
+          <fieldset class="form__input-container">
+            <input type="text"
+                   name="destination"
+                   placeholder="Я поеду ..."
+                   class="form__item"
+                   required>
+            <textarea name="comment"
+                      cols="30" rows="10"
+                      placeholder="Потому что я ..."
+                      class="form__item form__item_el_description"></textarea>
+          </fieldset>
+          <fieldset class="form__handlers">
+            <input type="submit"
+                   value="Поехали уже куда-нибудь!"
+                   class="form__button">
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <!-- End Section Departure -->
   </main>
 </body>
 

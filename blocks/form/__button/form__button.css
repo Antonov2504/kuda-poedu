@@ -3,7 +3,7 @@
   height: 38px;
   padding: 5px 9px;
   border: 0;
-  background-color: black;
+  background-color: #007AFF;
   color: white;
   font-family: inherit;
   cursor: pointer;
@@ -16,4 +16,10 @@
 
 .form__button:focus {
   outline-color: #fffafa;
+}
+
+@media screen and (min-width: 768px) {
+  .form__button {
+    background-color: black;
+  }
 }

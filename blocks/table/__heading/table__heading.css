@@ -1,7 +1,13 @@
 .table__heading {
-  margin: 0 0 25px 0;
+  margin: 0 0 5px 0;
   text-transform: uppercase;
   font-family: 'IBM Plex Mono', Arial, sans-serif;
   font-size: 15px;
   font-weight: 700;
+}
+
+@media screen and (min-width: 1280px) {
+  .table__heading {
+    margin: 0 0 25px 0;
+  }
 }

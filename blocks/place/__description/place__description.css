@@ -3,5 +3,22 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 4.65vw 5.6vw 6.55vw;
+  padding: 25px 15px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  position: relative;
+}
+
+@media screen and (min-width: 540px) {
+  .place__description {
+    padding: 25px 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .place__description {
+    padding: 4.65vw 5.6vw 6.55vw;
+    grid-column: initial;
+    grid-row: initial;
+  }
 }

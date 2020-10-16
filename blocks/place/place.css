@@ -1,4 +1,28 @@
 .place {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  position: relative;
+}
+
+.place::before {
+  content: '';
+  background-color: #111;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  opacity: .5;
+}
+
+@media screen and (min-width: 768px) {
+  .place {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .place::before {
+    display: none;
+  }
 }

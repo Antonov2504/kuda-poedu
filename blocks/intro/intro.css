@@ -1,17 +1,60 @@
 .intro {
-  padding: 11.3vw 0 9.7vw 0;
   position: relative;
+  z-index: 0;
+  color: white;
+}
+
+.intro::before {
+  content: '';
+  width: 100vw;
+  height: 100vw;
+  max-height: 350px;
+  background-color: #111;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: .5;
+  z-index: -1;
 }
 
 .intro::after {
   content: '';
-  width: 27.9vw;
-  height: 27.9vw;
+  width: 100vw;
+  height: 100vw;
+  max-height: 350px;
   background-image: url("./../../images/intro-image.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: absolute;
-  top: 2.6vw;
-  right: 12.2vw;
+  top: 0;
+  right: 0;
+  z-index: -2;
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    min-height: 33.85vw;
+    padding: 2.6vw 0 7.6vw 0;
+    color: inherit;
+  }
+
+  .intro::before {
+    display: none;
+  }
+
+  .intro::after {
+    content: '';
+    width: 27.9vw;
+    height: 27.9vw;
+    max-height: initial;
+    top: 2.6vw;
+    right: 12.2vw;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    padding: 11.3vw 0 9.7vw 0;
+  }
 }

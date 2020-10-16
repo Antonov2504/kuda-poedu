@@ -1,6 +1,28 @@
 .section__container {
   min-width: 280px;
-  width: calc(100% - 80px * 2);
+  width: 100%;
   max-width: 1345px;
+  padding: 0 15px;
   margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 540px) {
+  .section__container {
+    width: calc(100% - 60px);
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section__container {
+    width: calc(100% - 60px * 2);
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section__container {
+    width: calc(100% - 80px * 2);
+  }
 }

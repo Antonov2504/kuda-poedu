@@ -2,6 +2,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: calc(100% - 5.32vw * 2);
-  min-height: 137px;
+  width: calc(100% - 30px);
+  min-height: 60px;
+}
+
+@media screen and (min-width: 540px) {
+  .header {
+    width: calc(100% - 60px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    width: calc(100% - 60px * 2);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    width: calc(100% - 5.32vw * 2);
+    min-height: 137px;
+  }
 }

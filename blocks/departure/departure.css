@@ -1,11 +1,24 @@
 .departure {
-  padding: 160px 0 140px;
   position: relative;
+  z-index: 0;
+  color: white;
+}
+
+.departure::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: .5;
+  z-index: -1;
 }
 
 .departure::after {
   content: '';
-  width: 50%;
+  width: 100%;
   height: 100%;
   background-image: url('./../../images/airport-schedule.jpg');
   background-size: cover;
@@ -14,4 +27,26 @@
   position: absolute;
   top: 0;
   right: 0;
+  z-index: -2;
+}
+
+@media screen and (min-width: 768px) {
+  .departure {
+    color: inherit;
+  }
+
+  .departure::before {
+    display: none;
+  }
+
+  .departure::after {
+    content: '';
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .departure {
+    padding: 160px 0 140px;
+  }
 }

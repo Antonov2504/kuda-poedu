@@ -1,6 +1,21 @@
 .place__image {
+  display: block;
   width: 100%;
-  height: 41.75vw;   /*при 50vw на разрешении 1505px картинка совпадает с макетом*/
+  height: 100%;   /*при 50vw на разрешении 1505px картинка совпадает с макетом*/
   object-fit: cover;
   object-position: center;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+@media screen and (min-width: 768px) {
+  .place__image {
+    min-height: 41.75vw;
+    grid-column: initial;
+    grid-row: initial;
+  }
+
+  .place__image::before {
+    display: none;
+  }
 }

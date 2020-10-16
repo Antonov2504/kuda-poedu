@@ -1,6 +1,17 @@
 .header__list-item {
-    margin-right: 45px;
+  margin: 0 0 15px 0;
 }
+
 .header__list-item:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 540px) {
+  .header__list-item {
+    margin: 0 45px 0 0;
+  }
+
+  .header__list-item:last-child {
     margin-right: 0;
+  }
 }

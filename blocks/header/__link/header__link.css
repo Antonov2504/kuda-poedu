@@ -1,7 +1,12 @@
 .header__link {
-    text-decoration: none;
-    color: black;
-    display: block;
-    line-height: 2;
-    font-weight: 700;
+  display: block;
+  color: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.header__link:hover {
+  color: #fecda7;
 }

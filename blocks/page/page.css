@@ -5,6 +5,10 @@
     -ms-text-size-adjust: 100%;
       -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-weight: 400;

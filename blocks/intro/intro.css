@@ -1,18 +1,17 @@
 .intro {
-    min-height: 660px;
-    padding: 210px 0 160px 0;
-    position: relative;
+  padding: 11.3vw 0 9.7vw 0;
+  position: relative;
 }
 
 .intro::after {
-    content: '';
-    width: 27.9vw;
-    height: 27.9vw;
-    background-image: url("./../../images/intro-image.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 90px;
-    right: 12.3vw;
+  content: '';
+  width: 27.9vw;
+  height: 27.9vw;
+  background-image: url("./../../images/intro-image.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 2.6vw;
+  right: 12.2vw;
 }

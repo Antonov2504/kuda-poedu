@@ -1,7 +1,6 @@
 .header__list-item {
     margin-right: 45px;
 }
-.header__list-item:last-of-type {
+.header__list-item:last-child {
     margin-right: 0;
-    margin-left: auto;  
 }
